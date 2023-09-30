@@ -1,0 +1,370 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: cabin;
+}
+header{
+    display: flex ;
+    background-color: hsl(212,29.41%,10%);
+    justify-content: space-between;
+    align-items: center;color: #fff;
+    font-size: 12px;
+}
+#logo{
+    width: 100px;
+}
+#map{
+    height: 12px;
+
+}
+nav{
+    background-color: hsl(214.29,28%,19.61%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#search-box{
+    width: 50%;
+    background-color:white;
+    border-radius: 15px;
+    height: 40px;
+    display: flex;
+
+}
+#category{
+    text-decoration: none;
+    border: none;
+    height: 40px;
+    
+    background-color: #f8f4f4;
+    border-radius: 15px;
+    width: 50px;
+
+}
+#line{
+    border: 0.5px solid hsl(0,0%,91.76%);
+    height: 38px;
+}
+#int{
+    width: 90%;
+    border: none;
+}
+#is{
+    background-color: hsl(35.27,94.87%,69.41%);
+    width: 48px;
+    border-radius:15px ;
+}
+#b{
+    padding: 12px 15px;
+    height: 15px;
+}
+#country,#acc{
+    background-color: hsl(212,29.41%,10%);
+    width: 11px;color: #fff;
+    border: none;
+}
+#cart1{
+    height: 25px;
+}
+.nav1{
+    background-color: inherit;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+}
+#day,#july{
+    background-color: inherit;
+    border: none;
+    color: #fff;
+}
+#prime{
+    background-color: hsl(214.29,28%,19.61%);
+    width: 11px;color: #fff;
+    border: none;
+}
+#day{
+    font-size: 21px;
+}
+#smile{
+    width: 51px;
+}
+#july{
+    font-size: 12px;
+}
+#inner_body{
+    background-image: url(assets/background\ picture.png);
+    background-size:100% ;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.sect{
+    display: flex;
+    margin-top: 186px;
+    background-color: #fff;
+    width: 260px;
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    font-size: 15px;
+}
+.img1{
+    height: 70px;
+    width: 110px;
+    padding-left: 12px;
+}
+#title1,#title3,#title4,#title5,#title6{
+    padding-left: 12px;
+    padding-top: 6px;
+    font-size: 18px;
+}
+#left{
+    position: absolute;
+    left: 0%;
+    top: 34%;
+}
+#right{
+    position: absolute;
+    right: 0%;
+    top: 34%;
+}
+.txt{
+    padding-left: 12px;
+}
+#laptop{
+    width: 230px;
+    margin-left: 5%;
+}
+#non{
+    background-color: none;
+}
+#sec4{
+    height: 100px;
+}
+#foot{
+    position: absolute;
+    width: 260px;
+    margin-top:28%;
+    right: 1%;
+}
+#sign{
+    text-align: center;
+    background-color: hsl(50.04,100%,53.92%);
+    border: none;
+    border-radius: 5px;
+    margin-top:7% ;
+    margin-left: 4%;
+    width: 240px;
+    height: 21px;
+}
+@media (min-width: 1200px) {
+    .sect{
+        margin-top: 240px;
+        width:310px;
+        font-size: 18px;
+    }
+    #foot{
+        margin-top: 26%;
+        right:2.7%;
+        width: 310px;
+    }
+    #sign{
+        width: 280px;
+        margin-top:4% ;
+    }
+    #title1,#title3,#title4,#title5,#title6{
+        padding-left: 12px;
+        padding-top: 6px;
+        font-size: 21px;
+    }
+    .img1{
+        height: 80px;
+        width: 120px;
+        padding-top: 12px;
+    }
+    #laptop{
+        width: 280px;
+        margin-left: 5%;
+        margin-top: 12px;
+    }
+  }
+@media (max-width:500px){
+    header{
+        font-size: 5px;
+    }
+    #logo{
+        width: 52px;
+    }
+    #map{
+        height: 6px;
+    }
+    #cart1{
+        width:15px;
+        height: 15px;
+    }
+    #search-box{
+        width: 50%;
+        background-color:white;
+        border-radius: 15px;
+        height: 24px;
+        display: flex;
+    }
+    #category{
+        text-decoration: none;
+        border: none;
+        height: 22px;
+        
+        background-color: #f8f4f4;
+        border-radius: 15px;
+        width: 50px;
+    }
+    #line{
+        border: 0.5px solid hsl(0,0%,91.76%);
+        height: 22px;
+    }
+    #is{
+        background-color: hsl(35.27,94.87%,69.41%);
+        width: 39px;
+        border-radius:15px ;
+    }
+    #search-box{
+        width: 44%;
+    }
+    #b{
+        padding: 7px 12px;
+        height: 12px;
+    }
+    #country,#acc{
+        background-color: hsl(212,29.41%,10%);
+        width: 8px;color: #fff;
+        border: none;
+    }
+    #india{
+        width: 12px;
+    }
+    #sign-in{
+        font-size: 6px;
+    }
+    #st{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav1{
+        background-color: inherit;
+        border: none;
+        color: #fff;
+        font-size: 6px;
+    }
+    #prime{
+        background-color: hsl(214.29,28%,19.61%);
+        width: 8px;color: #fff;
+        border: none;
+    }
+    #prim{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #day{
+       font-size: 6px;
+    }
+    #smile{
+        width: 15px;
+        
+    }
+    #july{
+       font-size: 2.5px;
+       margin-left:42%;
+    }
+    #lion{
+        height: 20px;
+   }
+    #ham{
+        height: 10px;
+    }
+    #arrow{
+        height: 8px;
+    }
+    nav{
+        height: 20px;
+    }
+    .sect{
+        display: flex;
+        margin-top: 150px;
+        background-color: #fff;
+        width: 93px;
+        height: 200px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 5px;
+    }
+    #inner_body{
+        background-image: url(assets/background\ picture.png);
+        background-size:100% 100% ;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .img1{
+        height: 40px;
+        width: 35px;
+        padding-left: 6px;
+    }
+    #title1,#title3,#title4,#title5,#title6{
+        padding-left: 6px;
+        padding-top: 4px;
+        font-size: 8px;
+    }
+    #left{
+        position: absolute;
+        left: 0%;
+        top: 14%;
+    }
+    #right{
+        position: absolute;
+        right: 0%;
+        top: 14%;
+    }
+    .txt{
+        padding-left: 6px;
+    }
+    #laptop{
+        margin-top: 10%;
+        width: 86px;
+        height: 150px;
+        margin-left: 3%;
+        margin-bottom: 100%;
+    }
+    #non{
+        background-color: none;
+    }
+    #sec4{
+        height: 70px;
+        width: 90px;
+    }
+    #foot{
+        position: absolute;
+        width: 90px;
+        margin-top:57%;
+        right: 1.5%;
+        height: 112px;
+    }
+    #sign{
+        text-align: center;
+        background-color: hsl(50.04,100%,53.92%);
+        border: none;
+        border-radius: 5px;
+        margin-top:12% ;
+        margin-left: 4%;
+        width: 80px;
+        height: 12px;
+        font-size: 8px;
+    }
+
+
+}
