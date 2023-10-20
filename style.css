@@ -368,3 +368,17 @@ nav{
 
 
 }
+@media (max-width: 768px) {
+  #ham, #prim {
+    display: none;
+  }
+  .nav1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #logo, #search-box {
+    margin: auto;
+  }
+}
+
